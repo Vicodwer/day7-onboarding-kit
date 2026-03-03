@@ -1,0 +1,26 @@
+[MASTER]
+jobs=1
+unsafe-load-any-extension=no
+[MESSAGES CONTROL]
+disable=
+    C0114,
+    R0903,
+    C0415,
+[FORMAT]
+max-line-length=88
+indent-string='    '
+[BASIC]
+good-names=i,j,k,v,fn,db
+min-name-length=2
+[DESIGN]
+max-args=7
+max-locals=15
+max-branches=10
+max-statements=50
+[SIMILARITIES]
+min-similarity-lines=10
+[TYPECHECK]
+generated-members=numpy.*,requests.*
+[REPORTS]
+output-format=text
+score=yes
